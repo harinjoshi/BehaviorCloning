@@ -1,13 +1,11 @@
 # Behavioral Cloning Project
 
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
-
 ## Please download Data file from this location [DataSet](https://drive.google.com/drive/u/1/folders/1wypLGi5Zuag4fgnU4Hcfk5scbeGexHCf)
 
 
 Overview
 ---
-In this project, you will use what you've learned about deep neural networks and convolutional neural networks to clone driving behavior.I have developed this model using tensorflow and keras framework. I have extensively trained, validated and tested my model using 2 tracks that are provided on simulator. The model willoutput a steering angle to an autonomous vehicle.
+In this project, I learned about deep neural networks and convolutional neural networks to clone driving behavior.I have developed this model using tensorflow and keras framework. I have extensively trained, validated and tested my model using 2 tracks that are provided on simulator. The model willoutput a steering angle to an autonomous vehicle.
 
 A simulator is imitation of real environment of car and it simulates model designed based on center image,right image,left image angle.Based on images that are recorded by simulator,a movie is created which simulates cars from different angles.
 
@@ -106,16 +104,3 @@ python video.py run1 --fps 48
 ```
 
 Will run the video at 48 FPS. The default FPS is 60.
-
-#### Why create a video
-
-1. It's been noted the simulator might perform differently based on the hardware. So if your model drives succesfully on your machine it might not on another machine (your reviewer). Saving a video is a solid backup in case this happens.
-2. You could slightly alter the code in `drive.py` and/or `video.py` to create a video of what your model sees after the image is processed (may be helpful for debugging).
-
-### Tips
-- Please keep in mind that training images are loaded in BGR colorspace using cv2 while drive.py load images in RGB to predict the steering angles.
-
-
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
-
